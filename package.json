@@ -2,6 +2,7 @@
   "name": "pkg-placeholder",
   "version": "0.0.0",
   "private": true,
+  "packageManager": "pnpm@9.4.0",
   "description": "_description_",
   "author": "Hilary Liu<2788370451@qq.com>",
   "scripts": {
