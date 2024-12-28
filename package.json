@@ -10,6 +10,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "lint-staged": "next lint --fix",
     "prepare": "simple-git-hooks"
   },
   "dependencies": {
@@ -32,8 +33,5 @@
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
-  },
-  "lint-staged": {
-    "*": "eslint --fix"
   }
 }
